@@ -1,0 +1,25 @@
+.landing-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .landing-links {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  button{
+    font-size: 20px;
+    background-color: lightgray;
+    color: darkgoldenrod;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.5em;
+    border-radius: 5px;
+    &:hover{
+      box-shadow: darkgoldenrod 3px 3px 7px;
+    }
+
+  }
